@@ -1,0 +1,130 @@
+.footer-main {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    height: 396px;
+    font-family: "Poppins", sans-serif;
+}
+
+.footer-details {
+    max-width: 100%;
+    height: 335px;
+    background-color: #35373C;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer-copyright {
+    max-width: 100%;
+    height: 61px;
+    background-color: #1A1C20;
+    color: #9F9D9D;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between; /* Ensures content is spaced properly */
+    padding: 0 4%;
+    /* font-family: "Poppins", sans-serif; */
+}
+
+.footer-about-us, .footer-head-office, .footer-branch-office {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid white; */
+    width: 31%;
+}
+
+.footer-heading {
+    /* font-family: "Poppins", sans-serif; */
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    /* position: absolute; */
+    margin-top: 10.7%;
+    margin-left: 8%;
+}
+
+.footer-red-line {
+    margin-left: 8%;
+    width: 55px;
+    height: 1px;
+    background-color: #EE5C23;
+}
+
+.footer-about-us-span {
+    color: rgb(225, 225, 225);
+    /* font-family: "Poppins", sans-serif; */
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 5%;
+    margin-left: 8%;
+}
+
+.head-office-address {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: 8%;
+}
+
+.footer-Sub-heading {
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    /* font-family: "Poppins", sans-serif; */
+}
+
+.footer-head-office-span {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(225, 225, 225);
+    /* font-family: "Poppins", sans-serif; */
+}
+
+.footer-head-office-phone {
+    margin-top: 5%;
+    margin-left: 8%;
+}
+
+.footer-head-office-mail {
+    margin-left: 8%;
+}
+
+.copyright-marks {
+    font-weight: 275;
+    margin-left: 4%;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    color: #9F9D9D;
+}
+
+.footer-faq {
+    display: flex;
+    gap: 2vw;
+    font-size: 14px;
+    font-weight: 275;
+    align-items: center;
+    color: #9F9D9D;
+    margin-right: 8%;
+}
+
+.footer-scroll-up-btn {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: #EE5C23;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20.75%;
+    margin-left: 92%;
+}
+
+.footer-scroll-up-btn:hover {
+    background-color: #d24c18;
+    cursor: pointer;
+}
