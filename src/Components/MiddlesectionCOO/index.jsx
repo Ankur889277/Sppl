@@ -6,7 +6,7 @@ const index = () => {
       <div className="textSection">
         <h1>Text Section</h1>
         <h1>COO</h1>
-        <p>
+        <p className='MiddleSection-p'>
           Lorem ipsum dolor sit amet consectetur. Maecenas tempor adipiscing
           mollis blandit. Lacus aenean volutpat massa posuere sed dolor sed
           ultrices nullam. Adipiscing sed consectetur ac nibh vitae habitant

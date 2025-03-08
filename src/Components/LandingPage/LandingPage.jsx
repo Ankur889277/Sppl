@@ -7,16 +7,18 @@ import MiddlesectionCOO from "../MiddlesectionCOO";
 import Services from "../Services";
 import Team from "../Team"
 import Footer from '../Footer/Footer';
+import TestiMonials from '../Testimonials/TestiMonials';
 const LandingPage = () => {
   return (
     <>
       <ContactBar />
       <Navbar />
       <Home />
-      <OurClients/>
+      {/* <OurClients/>
       <MiddlesectionCOO/>
       <Services/>
-      <Team/>
+      <Team/> */}
+      <TestiMonials />
       <Footer/>
     </>
   )
