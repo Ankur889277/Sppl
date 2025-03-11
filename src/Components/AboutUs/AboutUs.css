@@ -1,5 +1,5 @@
 .about-main-div {
-    margin-top: 5rem;
+    margin-top: 5.25vw;
     display: flex;
     /* justify-content: center; */
     width: 100%;
@@ -16,8 +16,8 @@
     position: relative;
     border-radius: 50%;
     /* border: 1px solid red; */
-    height: 810px;
-    width: 810px;
+    width: min(54.144vw);
+    height: min(54.144vw, 194vh);
     z-index: -5;
     /* top: -670px; */
     left: -25%;
@@ -31,59 +31,59 @@
     flex-direction: column;
     margin-left: 4%;
     width: 90%;
-    top: 24%;
+    /* top: 24%; */
 }
 
 .about-heading {
-    font-size: 48px;
+    font-size: clamp(8px, 3vw, 48px);
     font-weight: 600;
     color: #05172A;
 }
 
 .profile {
-    width: 558px;
-    height: 555px;
+    /* width: 558px;
+    height: 555px; */
     display: flex;
     flex-direction: row;
     /* max-width: 100%; */
     /* border: 1px solid greenyellow; */
-    margin-top: 25px;
+    margin-top: 1.604vw;
     width: 100%;
 }
 
 .about-profile-image {
-    height: 555px;
-    width: 575px;
-    border-radius: 0px 120px 0px 120px;
+    height: 37.099vw;
+    width: 38.436vw;
+    border-radius: 0px 8.021vw 0px 8.021vw;
 }
 
 .about-profile-text {
     /* border: 1px solid blue; */
     width: 45%;
-    margin-left: 25px;
+    margin-left: 1.671vw;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 1.337vw;
 }
 
 .about-profile-heading {
-    font-size: 48px;
+    font-size: clamp(8px, 3vw, 48px);
     color: #023866;
     /* font-family: "Poppins", sans-serif; */
     font-weight: 500;
-    margin-top: 52px;
+    margin-top: 3.476vw;
     /* margin: 0; */
 }
 
 .about-profile-detail-text {
     font-weight: 400;
-    font-size: 16px;
+    font-size: clamp(6px, 1.1vw, 16px);
 }
 
 .about-circle1 {
     position: absolute;
-    height: 60px;
-    width: 60px;
+    height: 3.9vw;
+    width: 3.9vw;
     background: linear-gradient(to bottom, #a7b4ed, #4361EE00);
     transform: rotate(-30deg);
     border-radius: 50px;
@@ -94,7 +94,7 @@
 
 .about-stats {
     position: absolute;
-    top: 120%;
+    top: 60vw;
     width: 100%;
     /* border: 1px solid orange; */
     display: flex;

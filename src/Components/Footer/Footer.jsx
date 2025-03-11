@@ -44,8 +44,8 @@ const Footer = () => {
       <button className="footer-scroll-up-btn" onClick={handlleScrollUpClick}><FaArrowUpLong style={{color:"white", fontSize:"22px"}}/></button>
       <div className="footer-copyright">
         <div className="copyright-marks"style={{marginLeft: "4.5%"}}>
-            <span style={{fontSize: "14px"}}>Copyright © Sathi Planners Pvt. Ltd.</span>
-            <span style={{fontSize: "14px"}}>SPPL is a Sathi Planners Trademark</span>
+            <span style={{fontSize: "clamp(8px, 1vw, 14px)"}}>Copyright © Sathi Planners Pvt. Ltd.</span>
+            <span style={{fontSize: "clamp(8px, 1vw, 14px)"}}>SPPL is a Sathi Planners Trademark</span>
         </div>
         <div className="footer-faq">
           <span>HISTORY</span>

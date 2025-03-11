@@ -2,23 +2,123 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  row-gap: 31px;
+  /* row-gap: 31px; */
+  height: 55vw;
+  /* border: 1px solid black; */
+  font-family: "Poppins", sans-serif;
 }
 
-.team-intro{
+.team-intro-headings{
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8vw;
+}
 
+.team-intro-heading1 {
+  font-weight: 500;
+  font-size: clamp(8px, 1.2vw, 19.4px);
+  color: #4361EE;
+  letter-spacing: 0.2vw;
+}
+
+.team-intro-heading2 {
+  margin-top: 0.5vw;  
+  font-weight: 600;
+  font-size: clamp(24px, 4vw, 39.8px);
+  color: #2B2B2B;
+  /* letter-spacing: 0.2vw; */
+}
+
+/* .team-carousel {
+  height: 32vw;
+  border: 1px solid orangered;
+  margin-top: 5vw;
+  display: flex;
+  flex-direction: row;
+  gap: 5vw;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  width: 70%;
+} */
+
+.team-carousel {
+  display: flex;
+  flex-direction: row;
+  gap: 5vw;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: hidden;
+  width: 70%;
+  padding-left: 1vw;
+  margin-top: 6vw;
+  /* border: 1px solid orangered; */
 }
 
 
-.team-card{
-width: 200px;
-height: 280px;
+.team-cards{
+width: 13.369vw;
+height: 24.733vw;
 align-items: center;
 justify-content: center;
+/* border: 1px solid blue; */
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 1vw;
 }
 
-img{
+.team-cards-img {
+  height: 18.717vw;
+  width: 13.369vw;
+  border-radius: 8.021vw 2.674vw 2.674vw 2.674vw;
+}
+
+.team-cards-name {
+  font-size: clamp(8px, 2vw, 27.6px);
+  color: #0B090A;
+  font-weight: 600;
+}
+
+.team-cards-role {
+  font-size: clamp(5px, 1.1vw, 16px);
+  color: #4361EE;
+  font-weight: 500;
+}
+
+.team-crousel-button {
+  /* height: 3vw; */
+  /* border: 1px solid red; */
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2vw;
+}
+
+.team-btn {
+  height: 2.674vw;
+  width: 2.674vw;
+  border-radius: 50%;
+  border: none;
+  background: #EEF8FF;
+  color: #AAAAAA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: clamp(10px, 1.5vw, 12px);
+}
+
+.team-btn:hover {
+  background: #d6d6d6ee;
+  color: black;
+  cursor: pointer;
+}
+
+/* img{
   width: 200px;
   height: 280px;
   border-radius: 120px 40px 40px 40px;
-}
+} */

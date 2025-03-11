@@ -1,11 +1,12 @@
 import React from 'react'
+import '../../App.css';
 import ContactBar from "../ContactBar/ContactBar";
 import Navbar from "../Navbar/Navbar";
 import Home from "../Home/Home";
-import OurClients from '../OurClient/client'
+import OurClients from '../OurClient/client';
 import MiddlesectionCOO from "../MiddlesectionCOO";
 import Services from "../Services";
-import Team from "../Team"
+import Team from "../Team";
 import Footer from '../Footer/Footer';
 import TestiMonials from '../Testimonials/TestiMonials';
 const LandingPage = () => {
@@ -14,10 +15,11 @@ const LandingPage = () => {
       <ContactBar />
       <Navbar />
       <Home />
-      {/* <OurClients/>
+      <OurClients/>
+      <span className='divider-line'></span>
       <MiddlesectionCOO/>
       <Services/>
-      <Team/> */}
+      <Team/>
       <TestiMonials />
       <Footer/>
     </>

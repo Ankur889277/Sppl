@@ -1,41 +1,106 @@
-.wrapper {
+.MiddleSection-wrapper {
   display: flex;
-  align-items: center; /* Center content vertically */
-  gap: 20px;
-  padding: 20px;
+  height: 37.29vw;
+  /* border: 1px solid black; */
+  width: 100%;
+  font-family: "Poppins", sans-serif;
 }
 
-.textSection {
-  flex: 1;
+.MiddleSection-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid orangered; */
+  height: 32vw;
+  width: 100%;
+  flex-direction: row;
+  margin-top: 2.8vw;
 }
 
-.imageSection {
-  flex: 1;
+.Middle-section-left {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  /* border: 1px solid blue; */
+  margin-left: 4.2vw;
+}
+
+.Middle-section-name {
+  color: #5c6d80;
+  font-size: clamp(18px, 2.5vw, 32px);
+  font-style: italic;
+  font-weight: 500;
+}
+
+.Middle-section-role {
+  color: #5c6d80;
+  font-size: clamp(16px, 2vw, 24px);
+  font-style: italic;
+  font-weight: 400;
+}
+
+.MiddleSection-p {
+  margin: 1vw 0 0 0;
+  font-size: clamp(5px, 1vw, 16px);
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.604vw;
+  color: #667789;
+  height: 6.684vw;
+}
+
+.Middle-section-right {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 32vw;
+  width: 28.5%;
+  margin-right: 7.4vw;
+  /* border: 1px solid green; */
 }
 
-.imageSection img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-  margin-left: 40px;
+.Middle-section-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 27.305vw;
+  width: 27.305vw;
+  border-radius: 50%;
+  background: linear-gradient(148deg, #6980ecc2 0%, rgba(67, 97, 238, 0) 100%);
 }
 
-.circle {
-  border-radius: 190px;
-  background: linear-gradient(180deg, #4361EE 0%, rgba(67, 97, 238, 0) 100%);
-
+.Middle-section-container-img {
+  position: absolute;
+  height: 26.07vw;
+  width: 26.203vw;
+  border-radius: 50%;
+  margin-left: 2vw;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.MiddleSection-p{
-color: #667789;
-font-size: 16px;
-font-family: Poppins;
-font-weight: 400;
-font-style: italic;
-font-size: 16px;
-line-height: 24px;
+.Middle-section-img {
+  height: 39.439vw;
+  width: 27.406vw;
+  transition: 0.3s linear;
+}
 
+.MiddleSection-carousel-indicators {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  height: 1.136vw;
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 27.9vw 0 0 4vw;
+}
+
+.MiddleSection-indicator {
+  width: 1.136vw;
+  height: 1.136vw;
+  margin: 0 0.4vw;
 }

@@ -2,12 +2,12 @@
     display: flex;
     justify-content: space-around;
     background-color: white;
-    border-radius: 30px;
-    padding: 20px;
+    border-radius: 2.005vw;
+    padding: 1.337vw;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.29);
     /* margin: 40px 0; */
-    width: 1060px;
-    height: 100px;
+    width: 70.856vw;
+    height: 6.684vw;
     align-items: center;
     font-family: "Poppins", sans-serif;
     transition: box-shadow 0.3s ease, transform 0.3s ease;
@@ -26,5 +26,5 @@
     font-size: 2rem;
     font-weight: bold;
     color: #171F35;
-    font-size: 48px;
+    font-size: clamp(8px, 3vw, 48px);
   }

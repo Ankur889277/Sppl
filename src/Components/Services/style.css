@@ -1,70 +1,64 @@
-/* body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-} */
-
 .services-wrapper {
-    text-align: center;
-    padding: 40px;
-    position: relative;
     background: url('/Group.svg') no-repeat center center;
     background-size: cover;
-    height: 100vh; 
+    height: 76.07vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
+    font-family: "Poppins", sans-serif;
+    /* border: 1px solid orangered; */
 }
 
-
-.section-title {
-    font-size: 32px;
-    font-weight: bold;
+.services-section-title {
+    font-size: clamp(24px, 4vw, 48px);
+    font-weight: 500;
+    margin-top: 5vw;
 }
 
-
-.card-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    justify-content: center;
-    max-width: 1000px;
-    margin: 0 auto;
-    position: relative;
-    z-index: 2;
-}
-
-/* Card Styles */
-.card-body {
+.services-card-container {
+    width: 100%;
+    /* border: 1px solid black; */
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    gap: 2vw;
+    margin-top: 5.4vw;
 }
 
-.card {
-    background: rgba(255, 255, 255, 0.9); 
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+.services-cards {
+    background: white;
+    /* border: 1px solid red; */
+    height: 17.981vw;
+    width: 29.479vw;
+    border-radius: 1.337vw;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.services-card-title {
+    font-weight: 500;
+    font-size: clamp(8px, 2vw, 24px);
+    color: #29323F;
+    margin-top: 1vw;
+
+}
+
+.services-card-description {
+    font-weight: 400;
+    font-size: clamp(6px, 1.1vw, 16px);
+    font-style: italic;
+    color: #667789;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.6;
+    /* border: 1px solid green; */
     text-align: center;
-    max-width: 250px;
-}
-
-.card-title {
-    font-size: 22px;
-    font-weight: bold;
-    color: #222;
-}
-
-.card-text {
-    font-size: 16px;
-    color: #555;
-    margin-top: 10px;
-}
-
-
-.last-card {
-    grid-column: 2 / span 1;
-    justify-self: center;
+    margin-top: 2vw;
 }

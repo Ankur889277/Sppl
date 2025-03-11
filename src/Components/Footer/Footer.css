@@ -2,13 +2,13 @@
     display: flex;
     flex-direction: column;
     max-width: 100%;
-    height: 396px;
+    height: 25.8vw;
     font-family: "Poppins", sans-serif;
 }
 
 .footer-details {
     max-width: 100%;
-    height: 335px;
+    height: 21.85vw;
     background-color: #35373C;
     display: flex;
     flex-direction: row;
@@ -17,7 +17,7 @@
 
 .footer-copyright {
     max-width: 100%;
-    height: 61px;
+    height: 4vw;
     background-color: #1A1C20;
     color: #9F9D9D;
     display: flex;
@@ -37,7 +37,7 @@
 
 .footer-heading {
     /* font-family: "Poppins", sans-serif; */
-    font-size: 24px;
+    font-size: clamp(8px, 2vw, 24px);
     font-weight: 500;
     color: white;
     /* position: absolute; */
@@ -47,7 +47,7 @@
 
 .footer-red-line {
     margin-left: 8%;
-    width: 55px;
+    width: 4vw;
     height: 1px;
     background-color: #EE5C23;
 }
@@ -55,7 +55,7 @@
 .footer-about-us-span {
     color: rgb(225, 225, 225);
     /* font-family: "Poppins", sans-serif; */
-    font-size: 16px;
+    font-size: clamp(8px, 1.2vw, 16px);
     font-weight: 400;
     margin-top: 5%;
     margin-left: 8%;
@@ -69,14 +69,14 @@
 }
 
 .footer-Sub-heading {
-    font-size: 16px;
+    font-size: clamp(8px, 1.2vw, 16px);
     font-weight: 700;
     color: white;
     /* font-family: "Poppins", sans-serif; */
 }
 
 .footer-head-office-span {
-    font-size: 16px;
+    font-size: clamp(8px, 1.2vw, 16px);
     font-weight: 400;
     color: rgb(225, 225, 225);
     /* font-family: "Poppins", sans-serif; */
@@ -96,14 +96,14 @@
     margin-left: 4%;
     display: flex;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1.6vw;
     color: #9F9D9D;
 }
 
 .footer-faq {
     display: flex;
     gap: 2vw;
-    font-size: 14px;
+    font-size: clamp(8px, 1vw, 14px);
     font-weight: 275;
     align-items: center;
     color: #9F9D9D;
@@ -112,8 +112,8 @@
 
 .footer-scroll-up-btn {
     position: absolute;
-    width: 40px;
-    height: 40px;
+    height: clamp(20px, 2.67vw, 40px);
+    width: clamp(20px, 2.67vw, 40px);
     border: none;
     background-color: #EE5C23;
     border-radius: 50%;

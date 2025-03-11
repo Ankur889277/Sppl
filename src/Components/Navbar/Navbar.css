@@ -21,11 +21,11 @@
     flex-direction: row;
     gap: 0.5vw;
     list-style: none;
-    margin-right: 11vw;
+    margin-right: 8vw;
 }
 
 .nav-right-li { 
-    border-radius: 20px;
+    border-radius: 1.337vw;
     height: 3.5vh;
     padding: 0.26vw 1.03vw; /* Adjust padding instead of setting a fixed width */
     display: flex;

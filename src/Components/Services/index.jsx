@@ -2,30 +2,25 @@ import React from 'react';
 import "./style.css";
 
 const servicesData = [
-  { id: 1, title: "Web Development", description: "We create modern and responsive web applications tailored to your needs." },
-  { id: 2, title: "UI/UX Design", description: "Crafting intuitive and visually appealing user experiences for your products." },
-  { id: 3, title: "SEO Optimization", description: "Improving your website's ranking on search engines to drive more traffic." },
-  { id: 4, title: "Mobile App Development", description: "Building high-performance mobile applications for Android and iOS." },
-  { id: 5, title: "Cloud Services", description: "Providing scalable cloud computing solutions for businesses." },
-  { id: 6, title: "Cybersecurity", description: "Protecting your data and infrastructure from online threats." },
-  { id: 7, title: "Tech Consulting", description: "Expert guidance to help you navigate the ever-evolving tech landscape." }
+  { id: 1, title: "Survey", description: "Lorem ipsum dolor sit amet consectetur. Maecenas tempor adipiscing mollis blandit. Lacus aenean volutpat massa posuere sed dolor sed ultrices nullam. Adipiscing sed consectetur ac nibh vitae habitant enim." },
+  { id: 2, title: "GIS Mapping", description: "Lorem ipsum dolor sit amet consectetur. Maecenas tempor adipiscing mollis blandit. Lacus aenean volutpat massa posuere sed dolor sed ultrices nullam. Adipiscing." },
+  { id: 3, title: "Mineral Exploration", description: "Lorem ipsum dolor sit amet consectetur. Maecenas tempor adipiscing mollis blandit. Lacus aenean volutpat massa posuere sed dolor sed ultrices nullam. Adipiscing." },
+  { id: 4, title: "Mine Plan", description: "Lorem ipsum dolor sit amet consectetur. Maecenas tempor adipiscing mollis blandit. Lacus aenean volutpat massa posuere sed dolor sed ultrices nullam. Adipiscing sed consectetur ac nibh vitae habitant enim." },
+  { id: 5, title: "EIA-EMP", description: "Lorem ipsum dolor sit amet consectetur. Maecenas tempor adipiscing mollis blandit. Lacus aenean volutpat massa posuere sed dolor sed ultrices nullam. Adipiscing." },
+  { id: 6, title: "Environmental Laboratory", description: "Lorem ipsum dolor sit amet consectetur. Maecenas tempor adipiscing mollis blandit. Lacus aenean volutpat massa posuere sed dolor sed ultrices nullam. Adipiscing." },
+  { id: 7, title: "Software development", description: "Lorem ipsum dolor sit amet consectetur. Maecenas tempor adipiscing mollis blandit. Lacus aenean volutpat massa posuere sed dolor sed ultrices nullam. Adipiscing sed consectetur ac nibh vitae habitant enim." }
 ];
 
 const Index = () => {
   return (
     <div className='services-wrapper'>
-      <h1 className="section-title">Services We Offer</h1>
+      <span className="services-section-title">Services We Offer</span>
 
-      <div className='card-container'>
-        {servicesData.map((service, index) => (
-          <div 
-            className={`card-body ${index === servicesData.length - 1 ? "last-card" : ""}`} 
-            key={service.id}
-          >
-            <div className='card'>
-              <h1 className='card-title'>{service.title}</h1>
-              <p className='card-text'>{service.description}</p>
-            </div>
+      <div className='services-card-container'>
+        {servicesData.map((data, index)=>(
+          <div className="services-cards" key={index}>
+            <div className="services-card-title">{data.title}</div>
+            <div className="services-card-description">{data.description}</div>
           </div>
         ))}
       </div>

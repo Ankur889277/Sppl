@@ -3,7 +3,7 @@
   height: 23.7vw;
   width: 37vw;
   margin: auto;
-  border-radius: 15px;
+  border-radius: 1.003vw;
   background: transparent;
   display: flex;
   flex-direction: column;
@@ -27,7 +27,7 @@
   height: 22.2vw;
   width: 35.2vw;
   object-fit: cover;
-  border-radius: 15px;
+  border-radius: 1.003vw;
   box-shadow: 0px 4px 10px rgba(67, 97, 238, 0.7),inset 0px 2px 2px rgba(255, 255, 255, 0.6);
 }
 
@@ -71,7 +71,7 @@
   width: 6.5vw;
   height: 0.2vw;
   background-color: rgba(255, 255, 255, 0.571);
-  border-radius: 2px;
+  border-radius: 0.134vw;
   transition: background-color 0.3s ease;
   cursor: pointer;
   border: 1px solid rgba(172, 171, 171, 0.365);
