@@ -9,6 +9,7 @@ import Services from "../Services";
 import Team from "../Team";
 import Footer from '../Footer/Footer';
 import TestiMonials from '../Testimonials/TestiMonials';
+import BlogsPosts from '../BlogsPosts/BlogsPosts';
 const LandingPage = () => {
   return (
     <>
@@ -20,6 +21,7 @@ const LandingPage = () => {
       <MiddlesectionCOO/>
       <Services/>
       <Team/>
+      <BlogsPosts />
       <TestiMonials />
       <Footer/>
     </>

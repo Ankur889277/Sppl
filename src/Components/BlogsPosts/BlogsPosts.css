@@ -1,0 +1,118 @@
+.bP-main-div {
+    height: 60.094vw;
+    width: 100%;
+    background: #35373C;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    overflow: hidden;
+}
+
+.bP-heading {
+    font-size: clamp(24px, 4vw, 39.8px);
+    font-weight: 600;
+    color: white;
+    margin-top: 6vw;
+}
+
+.bP-carousel {
+    margin-top: 3.5vw;
+    height: 33.422vw;
+    width: 73%;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    overflow: hidden;
+    position: relative;
+    gap: 2vw;
+    padding: 1vw;
+}
+
+.bP-carousel-cards {
+    height: 32.5vw;
+    width: 22.727vw;
+    /* background: rgb(98, 145, 240); */
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bP-carousel-date-show {
+    position: absolute;
+    height: 3.1vw;
+    width: 3.275vw;
+    background-color: white;
+    border-radius: 0 0 0.668vw 0.668vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -13vw;
+}
+
+.bP-carousel-date {
+    font-size: clamp(8px, 1.2vw, 19.4px);
+    font-weight: 500;
+    height: 1.471vw;
+    /* border: 1px solid orangered; */
+    /* width: 24px; */
+}
+
+.bP-carousel-weekday {
+    font-size: clamp(4px, 1vw, 16px);
+    font-weight: 400;
+    color: #808080;
+}
+
+.bP-carousel-cards-img {
+    height: 16.043vw;
+    width: 22.727vw;
+    border-radius: 2.005vw;
+    box-shadow: 0px 0px 20px 0px rgb(2 2 2 / 42%);
+}
+
+.bP-carousel-cards-tagline {
+    margin-top: 2.005vw;
+    font-size: clamp(8px, 1.4vw, 20px);
+    color: white;
+    font-weight: 500;
+}
+
+.bP-carousel-cards-subTagline {
+    position: absolute;
+    width: 30.7%;
+    margin-top: 24.4vw;
+    /* margin-top: 0.5vw; */
+    font-size: clamp(4px, 1vw, 16px);
+    color: white;
+    font-weight: 400;
+    color: #D4D4D4;
+}
+
+.bP-cards-button-section {
+    position: absolute;
+    margin-top: 28vw;
+    width: 30.5%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 4.011vw;
+    /* background-color: red; */
+}
+
+.bP-cards-buttons {
+    height: 3.342vw;
+    width: 3.342vw;
+    border-radius: 50%;
+    border: 1px solid #3A0CA3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bP-cards-buttons:hover {
+    background-color: #c0aeec;
+    cursor: pointer;
+}

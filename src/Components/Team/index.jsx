@@ -125,7 +125,7 @@
 
 
 
-import React, { useRef, useEffect } from 'react';
+import React, { useRef } from 'react';
 import "./style.css";
 
 const TeamIntro = () => {
